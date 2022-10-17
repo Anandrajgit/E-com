@@ -11,7 +11,32 @@ public class EController {
 	    public String home() {
 	        return ("HomePage");
 	    }
-
+	    @GetMapping("/register")
+	    public String reg() {
+	        return ("Register");
+	    }
+	    
+	    @GetMapping("/about")
+	    public String about() {
+	        return ("About");
+	    }
+	    
+	    @GetMapping("/contact")
+	    public String contact() {
+	        return ("Contact");
+	    }
+	    
+	    @GetMapping("/MobileList")
+	    public String mobilelist() {
+	        return ("MobileList");
+	    }
+	    @GetMapping("/TVList")
+	    public String tvlist() {
+	        return ("TVList");
+	    }
+	    
+	    
+	    
 //	    @GetMapping("/customer")
 //	    public String customer() {
 //	        return ("Homepage");

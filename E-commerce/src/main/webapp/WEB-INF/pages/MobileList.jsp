@@ -72,11 +72,11 @@
     
     <!-- product cards -->
     <div class="container" id="product-cards">
-      <h1 class="text-center">OUR CAMERA PRODUCTS</h1>
+      <h1 class="text-center">OUR Mobile PRODUCTS</h1>
       <div class="row" style="margin-top: 30px;">
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-            <img src="images/mobimages/iphone 13 pro.png" alt="">
+            <img src="images/iphone 13 pro.png" alt="">
             <div class="card-body">
               <h3 class="text-center">Iphone 13 pro</h3>
               <p class="text-center">Upto Rs.16,900 Off on Exchange</p>
@@ -94,7 +94,7 @@
         </div>
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-            <img src="images/mobimages/nokiaG10.jpg" alt="">
+            <img src="images/nokiaG10.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Nokia G10</h3>
               <p class="text-center">Upto Rs.1,250 off</p>
@@ -112,7 +112,7 @@
         </div>
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-            <img src="images/mobimages/nord ce2.jpg" alt="">
+            <img src="images/nord ce2.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">One Plus Nord CE 2</h3>
               <p class="text-center">Upto Rs.1,000 off</p>
@@ -130,7 +130,7 @@
         </div>
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-          <img src="images/mobimages/onenore2.jpg" alt="">
+          <img src="images/onenore2.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">One Plus Nord 2</h3>
               <p class="text-center">Upto Rs.2,700 off</p>
@@ -148,7 +148,7 @@
         </div><br>
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-            <img src="images/mobimages/oneplu7t.jpg" alt="">
+            <img src="images/oneplu7t.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">One Plus 7T</h3>
               <p class="text-center">Upto Rs.15,200 off</p>
@@ -166,7 +166,7 @@
         </div>
         <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/oneplus8t.jpg" alt="">
+             <img src="images/oneplus8t.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">One Plus 8T</h3>
                 <p class="text-center">Upto Rs.15,200 off</p>
@@ -185,7 +185,7 @@
 
          <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/oppo21.jpg" alt="">
+             <img src="images/oppo21.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Oppo F21 Pro</h3>
                 <p class="text-center">Upto Rs.3,501 off</p>
@@ -203,7 +203,7 @@
         </div>
           <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/oppoa16.jpg" alt="">
+             <img src="images/oppoa16.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Oppo A16</h3>
                 <p class="text-center">Upto Rs.3,000 off</p>
@@ -221,7 +221,7 @@
         </div>
           <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/phone1.png" alt="">
+             <img src="images/phone1.png" alt="">
             <div class="card-body">
               <h3 class="text-center">IPhone X</h3>
                 <p class="text-center">Upto Rs.12,263 off</p>
@@ -239,7 +239,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/Realme8.jpg" alt="">
+             <img src="images/Realme8.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Realme 8</h3>
                 <p class="text-center">Upto Rs.1,991 off</p>
@@ -257,7 +257,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/realmegt.jpg" alt="">
+             <img src="images/realmegt.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Realme GT Neo 2</h3>
                 <p class="text-center">Upto Rs.5009 off</p>
@@ -275,7 +275,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/realmeneo3.jpg" alt="">
+             <img src="images/realmeneo3.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Realme GT Neo 3</h3>
                 <p class="text-center">Upto Rs.6,000 off</p>
@@ -293,7 +293,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/realmeX.jpg" alt="">
+             <img src="images/realmeX.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Realme X</h3>
                 <p class="text-center">Upto Rs.3,560 off</p>
@@ -311,7 +311,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/red10promax.jpg" alt="">
+             <img src="images/red10promax.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Redmi Note 10 Pro Max</h3>
                 <p class="text-center">Upto Rs.5,000 off</p>
@@ -329,7 +329,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/redmi11t.jpg" alt="">
+             <img src="images/redmi11t.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Redmi Note 11T 5G</h3>
                 <p class="text-center">Upto Rs.5,000 off</p>
@@ -347,7 +347,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/redmi9a.jpg" alt="">
+             <img src="images/redmi9a.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Redmi 9A</h3>
                 <p class="text-center">Upto Rs.1,500 off</p>
@@ -365,7 +365,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/reno5.jpg" alt="">
+             <img src="images/reno5.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Oppo Reno 5 Pro 5G</h3>
                 <p class="text-center">Upto Rs.2,500 off</p>
@@ -383,7 +383,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/samsung13.jpg" alt="">
+             <img src="images/samsung13.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Samsung Galaxy M13</h3>
                 <p class="text-center">Upto Rs.5,000 off</p>
@@ -401,7 +401,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/samsung32.jpg" alt="">
+             <img src="images/samsung32.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Samsung Galaxy A32 5G</h3>
                 <p class="text-center">Upto Rs.12,090 off</p>
@@ -419,7 +419,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/samsung73.jpg" alt="">
+             <img src="images/samsung73.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Samsung Galaxy A73 5G</h3>
                 <p class="text-center">Upto Rs.5,491 off</p>
@@ -437,7 +437,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/xiami11lite.jpg" alt="">
+             <img src="images/xiami11lite.jpg" alt="">
             <div class="card-body">
               <h3 class="text-center">Xiaomi 11 Lite NE 5G</h3>
                 <p class="text-center">Upto Rs.8,000 off</p>
@@ -455,7 +455,7 @@
         </div>
              <div class="col-md-3 py-3 py-md-0">
           <div class="card">
-             <img src="images/mobimages/xiaomim11.png" alt="">
+             <img src="images/xiaomim11.png" alt="">
             <div class="card-body">
               <h3 class="text-center">Xiaomi 11i 5G</h3>
                 <p class="text-center">Upto Rs.7,009 off</p>
