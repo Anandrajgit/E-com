@@ -34,7 +34,10 @@ public class EController {
 	    public String tvlist() {
 	        return ("TVList");
 	    }
-	    
+	    @GetMapping("/CusLogin")
+	    public String cuslogin() {
+	        return ("Loginpage");
+	    }
 	    
 	    
 //	    @GetMapping("/customer")

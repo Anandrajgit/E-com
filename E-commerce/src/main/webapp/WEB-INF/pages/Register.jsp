@@ -20,7 +20,7 @@
     <div class="top-navbar">
         <p>WELCOME TO OUR SHOP</p>
         <div class="icons">
-            <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a>
+            <a href="/login"><img src="./images/register.png" alt="" width="18px">Login</a>
             <a href="/register"><img src="./images/register.png" alt="" width="18px">Register</a>
         </div>
     </div>

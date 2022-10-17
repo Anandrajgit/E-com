@@ -18,7 +18,7 @@
     <div class="top-navbar">
         <p>WELCOME TO OUR SHOP</p>
         <div class="icons">
-            <a href="#"><img src="./images/register.png" alt="" width="18px">Login</a>
+            <a href="/CusLogin"><img src="./images/register.png" alt="" width="18px">Login</a>
             <a href="/register"><img src="./images/register.png" alt="" width="18px">Register</a>
         </div>
     </div>
