@@ -12,13 +12,13 @@ import java.util.stream.Collectors;
 public class Ebean2 implements UserDetails{
 
 	    private String userName;
-	    private String password;
+	    private String passwords;
 	    private boolean active;
 	    private List<GrantedAuthority> authorities;
 
 	    public Ebean2(Ebean bean) {
 	        this.userName = bean.getUserName();
-	        this.password = bean.getPasswords();
+	        this.passwords = bean.getPasswords();
 	        this.active = bean.isActive();
 	        this.authorities = Arrays.stream(bean.getRoles().split(","))
 	                    .map(SimpleGrantedAuthority::new)
@@ -32,7 +32,7 @@ public class Ebean2 implements UserDetails{
 
 	    @Override
 	    public String getPassword() {
-	        return password;
+	        return passwords;
 	    }
 
 	    @Override

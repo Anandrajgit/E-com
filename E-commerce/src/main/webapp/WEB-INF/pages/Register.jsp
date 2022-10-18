@@ -22,6 +22,8 @@
         <div class="icons">
             <a href="/login"><img src="./images/register.png" alt="" width="18px">Login</a>
             <a href="/register"><img src="./images/register.png" alt="" width="18px">Register</a>
+            <a href="/logout"><img src="images/register.png" alt="" width="18px">Logout</a>
+            
         </div>
     </div>
     <!-- top navbar -->
@@ -70,7 +72,7 @@
       </nav>
     <!-- navbar -->
     
-   <form action="register">
+   <form action="/customerRegister">
     
    <div class="container" id="login">
     <div class="row">
@@ -82,14 +84,16 @@
             <div class="input2 text-center">
             
             <input type ="hidden" name="roles"value="ROLE_CUSTOMER">
+            <input type ="hidden" name="active"value="1"> 
             <input type="text" name="userName" placeholder="Enter Your Name">
              <input type="email"name="emailId" placeholder="Enter Your Email Address">
             <input type="password" name="passwords" placeholder="Enter Your Password">
             <input type="text" name="address"placeholder="Enter Your address"> 
-            <input type="number"   name="contactNumber"placeholder="Enter Your Phone Number">
+            <input type="number" name="contactNumber"placeholder="Enter Your Phone Number">
+            
            
             </div><br>
-            <p class="text-center" id="btnlogin"><a href="/">SIGN UP</a></p>
+            <input type= "submit">
         </div>
 
     </div>

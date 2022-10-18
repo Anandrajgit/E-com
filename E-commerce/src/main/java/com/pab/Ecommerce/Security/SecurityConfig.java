@@ -22,15 +22,32 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	        auth.userDetailsService(eservice);
 	    }
 
+//	    @Override
+//	    protected void configure(HttpSecurity http) throws Exception {
+//	        http.authorizeRequests()
+//	                .antMatchers("/admin").hasRole("ADMIN")
+//	                .antMatchers("/customer").hasAnyRole("CUSTOMER", "ADMIN")
+//	                .antMatchers("/seller").hasAnyRole("SELLER", "ADMIN")
+//	                .antMatchers("/TVList").hasAnyRole("CUSTOMER", "ADMIN")
+//	                .antMatchers("/").permitAll()
+//	                .and().formLogin().loginPage("/login").permitAll();
+//	        
+//	    }
+//	    
+	    
 	    @Override
-	    protected void configure(HttpSecurity http) throws Exception {
-	        http.authorizeRequests()
-	                .antMatchers("/admin").hasRole("ADMIN")
-	                .antMatchers("/customer").hasAnyRole("CUSTOMER", "ADMIN")
-	                .antMatchers("/seller").hasAnyRole("SELLER", "ADMIN")
-	                .antMatchers("/").permitAll()
-	                .and().formLogin();
-	    }
+		protected void configure(HttpSecurity http) throws Exception {
+			http.authorizeRequests()
+			
+		            .antMatchers("/customer").hasAnyRole("CUSTOMER", "ADMIN")
+		            .antMatchers("/seller").hasAnyRole("SELLER", "ADMIN")
+		            .antMatchers("/TVList").hasAnyRole("CUSTOMER", "ADMIN")
+		            .antMatchers("/").permitAll()
+					.and().formLogin().loginPage("/login").permitAll()
+					.and().logout().permitAll();
+
+			http.csrf().disable();
+		}
 
 	    @Bean
 	    public PasswordEncoder getPasswordEncoder() {
