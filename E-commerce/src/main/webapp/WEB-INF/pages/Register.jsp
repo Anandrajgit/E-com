@@ -70,6 +70,8 @@
       </nav>
     <!-- navbar -->
     
+   <form action="register">
+    
    <div class="container" id="login">
     <div class="row">
         <div class="col-md-5 py-3 py-md-0" id="side1">
@@ -78,17 +80,21 @@
         <div class="col-md-7 py-3 py-md-0" id="side2">
             <h3 class="text-center">Create Account</h3>
             <div class="input2 text-center">
-            <input type="name"  placeholder="Enter Your Name">
-            <input type="name" placeholder="Enter Your User Name">
-            <input type="number" placeholder="Enter Your Phone Number">
-            <input type="email" placeholder="Enter Your Email Address">
-            <input type="password" placeholder="Enter Your Password">
+            
+            <input type ="hidden" name="roles"value="ROLE_CUSTOMER">
+            <input type="text" name="userName" placeholder="Enter Your Name">
+             <input type="email"name="emailId" placeholder="Enter Your Email Address">
+            <input type="password" name="passwords" placeholder="Enter Your Password">
+            <input type="text" name="address"placeholder="Enter Your address"> 
+            <input type="number"   name="contactNumber"placeholder="Enter Your Phone Number">
+           
             </div><br>
             <p class="text-center" id="btnlogin"><a href="/">SIGN UP</a></p>
         </div>
 
     </div>
    </div>
+</form>
 
     <!-- newslater -->
     <div class="container" id="newslater" style="margin-top: 100px;">

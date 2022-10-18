@@ -18,7 +18,7 @@ public class Ebean2 implements UserDetails{
 
 	    public Ebean2(Ebean bean) {
 	        this.userName = bean.getUserName();
-	        this.password = bean.getPassword();
+	        this.password = bean.getPasswords();
 	        this.active = bean.isActive();
 	        this.authorities = Arrays.stream(bean.getRoles().split(","))
 	                    .map(SimpleGrantedAuthority::new)
