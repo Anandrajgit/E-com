@@ -62,9 +62,20 @@ public class EController {
 	            model.addAttribute("msg", "You have been logged out successfully.");
 
 	        return "Loginpage";
+//	    }
+//	    @GetMapping("/customer")
+//	    public String customer() {
+//	        return ("Homepage");
+//	    }
+//
+//	    @GetMapping("/seller")
+//	    public String seller() {
+//	        return ("Homepage");
+//	    }
+//	    @GetMapping("/admin")
+//	    public String admin() {
+//	        return ("Homepage");
 	    }
-
-	    
 }
 
 
